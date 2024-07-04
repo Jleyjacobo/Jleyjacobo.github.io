@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bufete Legal Ley Jacobo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Ley Jacobo Abogados</div>
+    </header>
+    <section id="inicio" class="welcome-section">
+        <div class="welcome-message">
+            <h2>Bienvenidos</h2>
+            <p>Tu aliado confiable en la búsqueda de justicia.</p>
+            <button onclick="scrollToSection('servicios')">Descubre Nuestros Servicios</button>
+        </div>
+    </section>
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="services">
+            <div class="service-card">
+                <img src="imagenes/corporativo.jpg" alt="Derecho Corporativo">
+                <h3>Derecho Corporativo</h3>
+                <p>Asesoría integral para empresas en todos sus aspectos legales.</p>
+            </div>
+            <div class="service-card">
+                <img src="imagenes/Derecho civil.jpg" alt="Derecho Civil">
+                <h3>Derecho Civil</h3>
+                <p>Defensa y asesoría en temas civiles y familiares.</p>
+            </div>
+            <div class="service-card">
+                <img src="imagenes/penal.jpg" alt="Derecho Penal">
+                <h3>Derecho Penal</h3>
+                <p>Representación en casos penales con la mayor profesionalidad.</p>
+            </div>
+        </div>
+    </section>
+    <section id="equipo">
+        <h2>Nuestro Equipo</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="imagenes/alvaro.jpeg" alt="Abogado 1">
+                <h3>Juan Pérez</h3>
+                <p>Especialista en Derecho Corporativo</p>
+            </div>
+            <div class="team-member">
+                <img src="imagenes/Berly.jpeg" alt="Abogado 2">
+                <h3>María López</h3>
+                <p>Especialista en Derecho Civil</p>
+            </div>
+            <div class="team-member">
+                <img src="imagenes/abogado3.jpg" alt="Abogado 3">
+                <h3>Carlos Gómez</h3>
+                <p>Especialista en Derecho Penal</p>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Bufete Legal Ley Jacobo. Todos los derechos reservados.</p>
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
